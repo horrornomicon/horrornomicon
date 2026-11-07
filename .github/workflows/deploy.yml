@@ -1,0 +1,30 @@
+name: Deploy to Nekoweb + Neocities
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Nekoweb
+        uses: deploy2nekoweb/deploy2nekoweb@main
+        with:
+          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+          nekoweb-domain: 'horrornomicon.nekoweb.org'
+          nekoweb-username: 'horrornomicon'
+          directory: 'public'
+
+      - name: Deploy to Neocities
+        if: ${{ !cancelled() }}
+        uses: bcomnes/deploy-to-neocities@v2
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          dist_dir: public

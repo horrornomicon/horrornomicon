@@ -1,0 +1,112 @@
+/* styling for the webring widget */
+
+#horrornomicon {
+  max-width: 480px;
+  margin: 4px auto;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+#horrornomicon table {
+  width: auto;
+  margin: 0 auto;
+  border: 0;
+  border-collapse: collapse;
+  background: transparent;
+  box-shadow: none;
+}
+
+#horrornomicon td {
+  padding: 4px 8px;
+  vertical-align: middle;
+  border: 0;
+  background: transparent;
+}
+
+/* banner image */
+#horrornomicon .webring-banner-cell {
+  text-align: center;
+  padding: 0 5px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+#horrornomicon .webring-banner-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+}
+
+#horrornomicon .webring-banner-img {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  image-rendering: pixelated;
+  transition: transform 0.15s ease;
+}
+
+#horrornomicon .webring-banner-img:hover {
+  transform: scale(1.03);
+  filter: saturate(150%);
+}
+
+/* clickable nav arrows */
+#horrornomicon .webring-arrow {
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#horrornomicon .webring-arrow a {
+  display: block;
+  line-height: 0;
+  color: #ff1a1a;
+  background: transparent;
+  text-decoration: none;
+  user-select: none;
+}
+
+#horrornomicon .webring-arrow img {
+  display: block;
+  width: 40px;
+  max-width: none;
+  height: auto;
+  border: 0;
+  opacity: 75%;
+  transition: 2ms ease-out;
+  image-rendering: pixelated;
+}
+
+#horrornomicon .webring-arrow a:hover img,
+#horrornomicon .webring-arrow a:focus-visible img {
+  opacity: 100%;
+  transform: scale(1.1);
+}
+
+/* notice for unlisted or pending websites */
+#horrornomicon .webring-unlisted-wrap {
+  text-align: center;
+}
+
+#horrornomicon .webring-unlisted {
+  margin-top: 8px;
+  padding: 8px 12px;
+  font-family: "Special Elite", "VCR", "Courier New", monospace;
+  font-size: 13px;
+  color: #ffffff;
+  background: rgba(160, 0, 0, 0.35);
+  border: 2px inset #a00000;
+  text-align: center;
+  text-transform: lowercase;
+}
