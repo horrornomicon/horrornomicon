@@ -6,7 +6,8 @@ var sites = [
     'https://rottenenigma.nekoweb.org/',
     'https://crunk.nekoweb.org/',
     'https://clownzcorner.com/',
-    'https://receptions.neocities.org'
+    'https://receptions.neocities.org',
+    'https://koiledwire.neocities.org/'
 ];
 
 // name of the ring
