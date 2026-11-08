@@ -5,7 +5,8 @@ var sites = [
     'https://horrornomicon.nekoweb.org/',       
     'https://rottenenigma.nekoweb.org/',
     'https://crunk.nekoweb.org/',
-    'https://clownzcorner.com/'
+    'https://clownzcorner.com/',
+    'https://receptions.neocities.org'
 ];
 
 // name of the ring
