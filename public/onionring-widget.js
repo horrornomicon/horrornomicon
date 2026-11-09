@@ -7,7 +7,8 @@ var sites = [
     'https://crunk.nekoweb.org/',
     'https://clownzcorner.com/',
     'https://receptions.neocities.org',
-    'https://koiledwire.neocities.org/'
+    'https://koiledwire.neocities.org/',
+    'https://lunarcorvus.com'
 ];
 
 // name of the ring
