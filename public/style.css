@@ -524,6 +524,10 @@ h1 {
   background: var(--black);
   border: 2px inset var(--red-dark);
 }
+.member-button img {
+  width: 88px;
+  height: 31px;
+}
 .member-button:hover {
   transform: scale(1.05);
 }
