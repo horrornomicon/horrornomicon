@@ -8,7 +8,10 @@ var sites = [
     'https://clownzcorner.com/',
     'https://receptions.neocities.org',
     'https://koiledwire.neocities.org/',
-    'https://lunarcorvus.com'
+    'https://lunarcorvus.com',
+    'https://killdozer.online/',
+    'https://karchah.nekoweb.org/',
+    'https://mixtapesanddialtones.neocities.org/'
 ];
 
 // name of the ring
