@@ -11,7 +11,8 @@ var sites = [
     'https://lunarcorvus.com',
     'https://killdozer.online/',
     'https://karchah.nekoweb.org/',
-    'https://mixtapesanddialtones.neocities.org/'
+    'https://mixtapesanddialtones.neocities.org/',
+    'https://solemnity.nekoweb.org/'
 ];
 
 // name of the ring
