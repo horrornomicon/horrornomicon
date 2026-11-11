@@ -720,13 +720,52 @@ details p {
   box-shadow: 2px 2px 0 #000;
 }
 
-.affiliated-note {
-  font-size: 14px;
-  padding: 12px 16px;
+.affiliate-row {
+  --affiliate-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0 8px;
+  padding: 16px;
   background: var(--panel-light);
   border: 2px inset var(--red-dark);
-  color: var(--silver-light);
   box-shadow: 2px 2px 0 #000;
+}
+
+.affiliate {
+  width: var(--affiliate-width);
+  aspect-ratio: 2 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
+}
+
+.affiliate:hover {
+  transform: scale(1.05);
+}
+
+.affiliate a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.affiliate img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 720px) {
+  .affiliate-row {
+    --affiliate-width: 200px;
+  }
 }
 
 /* members stuff */
