@@ -11,7 +11,7 @@ var sites = [
     'https://lunarcorvus.com',
     'https://killdozer.online/',
     'https://karchah.nekoweb.org/',
-    'https://mixtapesanddialtones.neocities.org/',
+    'https://mxtps.monster/',
     'https://solemnity.nekoweb.org/'
 ];
 
