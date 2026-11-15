@@ -12,7 +12,8 @@ var sites = [
     'https://killdozer.online/',
     'https://karchah.nekoweb.org/',
     'https://mxtps.monster/',
-    'https://solemnity.nekoweb.org/'
+    'https://solemnity.nekoweb.org/',
+    'https://rabbitearsblog12.nekoweb.org/'
 ];
 
 // name of the ring
