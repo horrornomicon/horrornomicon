@@ -883,7 +883,7 @@ details p {
   image-rendering: pixelated;
 }
 
-/* remove placeholder stuff once pics are inserted */
+/* remove placeholders once pics are inserted */
 .site-button:has(img),
 .member-button:has(img),
 .blinkie-badge:has(img),
