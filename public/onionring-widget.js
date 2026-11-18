@@ -13,7 +13,8 @@ var sites = [
     'https://karchah.nekoweb.org/',
     'https://mxtps.monster/',
     'https://solemnity.nekoweb.org/',
-    'https://rabbitearsblog12.nekoweb.org/'
+    'https://rabbitearsblog12.nekoweb.org/',
+    'https://lesbiandelrey.neocities.org/'
 ];
 
 // name of the ring
