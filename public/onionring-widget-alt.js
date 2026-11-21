@@ -14,7 +14,8 @@ var sites = [
     'https://mxtps.monster/',
     'https://solemnity.nekoweb.org/',
     'https://rabbitearsblog12.nekoweb.org/',
-    'https://lesbiandelrey.neocities.org/'
+    'https://lesbiandelrey.neocities.org/',
+    'https://anrkey.net'
 ];
 
 // name of the ring
