@@ -15,7 +15,8 @@ var sites = [
     'https://solemnity.nekoweb.org/',
     'https://rabbitearsblog12.nekoweb.org/',
     'https://lesbiandelrey.neocities.org/',
-    'https://anrkey.net'
+    'https://anrkey.net',
+    'https://pomesa.neocities.org/'
 ];
 
 // name of the ring
