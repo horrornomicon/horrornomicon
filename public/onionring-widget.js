@@ -16,7 +16,8 @@ var sites = [
     'https://rabbitearsblog12.nekoweb.org/',
     'https://lesbiandelrey.neocities.org/',
     'https://anrkey.net',
-    'https://pomesa.neocities.org/'
+    'https://pomesa.neocities.org/',
+    'https://thatoddhaystack.neocities.org/horror/horrorhub'
 ];
 
 // name of the ring
