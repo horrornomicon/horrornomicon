@@ -17,7 +17,8 @@ var sites = [
     'https://lesbiandelrey.neocities.org/',
     'https://anrkey.net',
     'https://pomesa.neocities.org/',
-    'https://thatoddhaystack.neocities.org/horror/horrorhub'
+    'https://thatoddhaystack.neocities.org/horror/horrorhub',
+    'https://concealederrors.com'
 ];
 
 // name of the ring
